@@ -1,0 +1,75 @@
+:root {
+  --light: rgba(255, 255, 255, 0.1);
+  --lighter: rgba(255, 255, 255, 0.2);
+  --dark: rgba(255, 255, 255, 0.05);
+  --dark-hover: rgba(255, 255, 255, 0.1);
+  --darker: #222;
+}
+
+/* ===================================
+FORM CONTROL
+=================================== */
+
+.form-control {
+  border: none;
+  color: white !important;
+  background-color: var(--dark);
+}
+
+.form-control:focus {
+  background-color: var(--dark-hover);
+  box-shadow: 0 0 0 .15rem rgba(13, 110, 253, .25);
+}
+
+/* ===================================
+DROPDOWN MENU
+=================================== */
+
+.dropdown-menu {
+  background-color: #333 !important;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #fff !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #444 !important;
+}
+
+/* ===================================
+BORDER BOTTOM
+=================================== */
+
+.border-bottom {
+  border-bottom: 1px solid var(--lighter) !important;
+}
+
+/* ===================================
+CLOSE BUTTON
+=================================== */
+
+.btn-close {
+  background-size: cover;
+  background-image: url("../img/del.svg") !important;
+}
+
+/* ===================================
+BACKGROUND
+=================================== */
+
+.bg-dark {
+  background-color: var(--dark) !important;
+}
+
+.bg-darker {
+  background-color: var(--darker) !important;
+}
+
+.bg-light {
+  background-color: var(--light) !important;
+}
+
+.bg-lighter {
+  background-color: var(--lighter) !important;
+}
