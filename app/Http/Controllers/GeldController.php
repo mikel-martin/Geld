@@ -9,7 +9,8 @@ use Illuminate\Support\Facades\Auth;
 class GeldController extends Controller {
     
     function index() {
-        $containers = Container::where("id", Auth::user()->id)->get();
+        // $containers = Container::where("id", Auth::user()->id)->get();
+        $containers = Auth::user()->containers;
         return view("geld", ["containers" => $containers]);
     }
 

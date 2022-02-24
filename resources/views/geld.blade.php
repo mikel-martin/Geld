@@ -2,7 +2,7 @@
 
 @section("content")
 
-@if ($containers && count($containers) == 0)
+@if (count($containers) == 0)
     <p class="fs-4 text-center text-muted">There are no containers created yet</p>
 @else
     <div id="containers" class="container d-flex flex-wrap justify-content-center align-items-baseline gap-5 mb-5">
