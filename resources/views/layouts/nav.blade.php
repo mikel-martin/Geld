@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg container navbar-dark bg-dark text-white rounded shadow mt-3">
+<nav class="navbar navbar-expand-lg container navbar-dark bg-dark text-white rounded shadow mt-5">
   <div class="container-fluid">
     <a class="navbar-brand fs-3 fw-bold" href="/">Geld</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">

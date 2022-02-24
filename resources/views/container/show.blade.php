@@ -14,7 +14,7 @@
                 @if($container->spendings && count($container->spendings) == 0)
                     <span class="text-muted">There are no expenses yet</span>
                 @endif
-                @foreach($container->spendings as $spending)
+                @foreach($container->spendings->sortByDesc("amount") as $spending)
                     @include("spending.show", ["spending" => $spending])
                 @endforeach
             </div>
